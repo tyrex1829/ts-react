@@ -3,6 +3,8 @@ import "./App.css";
 import Todo from "./components/Todo";
 
 function App() {
+  const [count, setCount] = useState();
+
   return (
     <>
       <Todo
